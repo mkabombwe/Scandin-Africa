@@ -1,0 +1,92 @@
+body{
+	background-color: #F5F5F5;
+	width: 100%;
+	font-family: Century Gothic, sans-serif;
+}
+#wrapper{
+	float: left;
+	width: 100%;
+
+}
+#top_img{
+	float: left;
+	width: 100%;
+	background: no-repeat center center;
+	background-size: 100%;
+}
+#top_img_filter{
+	float: left;
+	width: 100%;
+	background: rgba(0,0,0,.6);
+}
+.container{
+	float: left;
+	width: 60%;
+	margin: 0 20%;
+}
+.title{
+	font-size: 3.5em;
+	text-align: center;
+	font-family: Big-John;
+	letter-spacing: .2em;
+	color: #FFF;
+	padding: 250px 0;
+}
+.sector_info{
+	padding: 100px 0;
+}
+.sector_info p{
+	font-size: 1.2em;
+	letter-spacing: 1.5px;
+	font-family: Century Gothic, sans-serif;
+	line-height: 1.7em;
+	padding: 15px 0;
+	text-align: center;
+}
+#support_child{
+	float: left;
+	width: 25%;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 35%;
+	text-decoration: none;
+	text-align: center;
+    cursor: pointer;
+    border: 1px solid #00AFF0;
+    color: #00AFF0;
+    border-radius: 5px;
+    transition: all .3s;
+    margin-top: 50px;
+    font-family: gidole-regular;
+}
+#support_child:hover{
+	color: #FFF;
+    background: #00AFF0;
+}
+@media screen and (max-width: 800px){
+	.container{
+		width: 80%;
+		margin: 0 10%;
+	}
+	#top_img{
+		background-size: auto 100%;
+	}
+}
+/* Fonts */
+@font-face {
+    font-family: gidole-regular;
+    src: url(../fonts/Gidole-Regular.otf);
+}
+@font-face {
+    font-family: gidoleplay-regular;
+    src: url(../fonts/GidolePlay-Regular.otf);
+}
+/* Fonts */
+@font-face {
+    font-family: Big-John;
+    src: url(../fonts/BIG-JOHN.otf);
+}
+@font-face {
+    font-family: Slim-Joe;
+    src: url(../fonts/Slim-Joe.otf);
+}

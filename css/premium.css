@@ -1,0 +1,144 @@
+body{
+	background-color: #FFF;
+}
+a{
+	text-decoration: none;
+}
+#premium_body::-webkit-scrollbar{
+    display: none !important;
+}
+#premium_body{
+    background: #F5F5F5;
+}
+#premium_container_outter{
+    float: left;
+    width: 100%;
+    height: 88%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#premium_container_inner{
+    float: left;
+    width: 100%;
+}
+#wrapper{
+    float: left;
+    width: 100%;
+    padding-bottom: 200px;
+}
+/* pricing */
+#pricing{
+    float: left;
+    width: 100%;
+    font-family: gidole-regular;
+}
+.pricing_container{
+    float: left;
+    width: 80%;
+    margin: 0 10%;
+}
+.pricing_container h1{
+    float: left;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 50px 0;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.pricing_box{
+    float: left;
+    width: 30%;
+    margin: 0 1.4%;
+    background: #ECEFF1;
+    box-shadow: 0 1px 3px rgba(0,0,0,.15);
+    transition: box-shadow .3s;
+}
+.pricing_box:hover{
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.pricing_box_top p{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+#pricing_box_title1{
+    background: #FFC107;
+}
+#pricing_box_title2{
+    background: #D50000;
+}
+#pricing_box_title3{
+    background: #00AFF0;
+}
+.pricing_box_middle p{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 1.7em;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.pricing_box_bottom{
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+    min-height: 290px;
+}
+.pricing_box_bottom p{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.pricing_box_button p{
+    float: left;
+    width: 80%;
+    padding: 20px 0;
+    margin: 45px 10%;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #00AFF0;
+    color: #00AFF0;
+    border-radius: 5px;
+    transition: all .3s;
+}
+.pricing_box_button p:hover{
+    color: #FFF;
+    background: #00AFF0;
+}
+@media screen and (max-width: 1000px){
+    .pricing_box{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+/* thank you */
+#thankyou{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+#thankyou p{
+    padding: 300px;
+}
+/* Tier media query */
+@media screen and (max-width: 700px){
+    #middle .price_container{
+        width: 100%;
+    }
+}
+
+/* Fonts */
+@font-face {
+    font-family: gidole-regular;
+    src: url(../fonts/Gidole-Regular.otf);
+}
+@font-face {
+    font-family: gidoleplay-regular;
+    src: url(../fonts/GidolePlay-Regular.otf);
+}

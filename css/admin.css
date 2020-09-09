@@ -1,0 +1,208 @@
+/* Profile container */
+	.noselect {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	#admin_body::-webkit-scrollbar{
+		display: none !important;
+	}
+	#admin_body{
+		float: left;
+		width: 100%;
+		background: #F5F5F5;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+		font-size: 14px;
+		color: #666666;
+		min-width: 720px;
+	}
+	#admin_container_outter{
+		float: left;
+		width: 95%;
+		height: 90%;
+		padding: 0 2.5%;
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+	#admin_container_inner{
+		float: left;
+		width: 100%;
+	}
+/* Inner */
+	#wrapper{
+		float: left;
+		width: 55%;
+		margin: 20px 1%;
+		padding-bottom: 50px;
+	}
+	.box{
+		float: left;
+		width: 100%;
+		background: #FFF;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+		overflow: scroll;
+	}
+	.box_title{
+		float: left;
+		width: 90%;
+		padding: 25px 5%;
+		color: #757575;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		text-align: center;
+		border-bottom: 1px solid rgba(0,0,0,0.08);
+	}
+	.box_outter{
+		float: left;
+		width: 100%;
+		overflow: scroll;
+	}
+	.box_inner{
+		float: left;
+		width: 1600px;
+	}
+/* Table */
+	.box_row{
+		float: left;
+		width: 98%;
+		padding: 0px 1%;
+	}
+	.box_row:nth-child(even){background-color: #FAFAFA}
+	.box_cell{
+		float: left;
+		width: 180px;
+		padding: 10px 2.5px;
+		margin: 0 5px;
+		font-size: .8em;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.first_row{
+		font-weight: 700;
+		font-size: .9em;
+		padding: 15px 2.5;
+		cursor: pointer;
+	}
+	.first_box{
+		border-top: none !important;
+	}
+	select{
+		float: left;
+		width: 100%;
+		font-size: .9em;
+		border-radius: 0;
+		border: none;
+		background: transparent url(../img/icon-arrow-down.png) no-repeat 95% center;
+		background-size: 8px;
+		-webkit-appearance: none;
+		appearance: none;
+		cursor: pointer;
+		color: #666666;
+	}
+	select:focus{
+		outline: none;
+	}
+	.site_link{
+		float: left;
+		color: #607D8B !important;
+		cursor: pointer;
+		font-weight: 600;
+	}
+/* Side tool */
+	#side_tool_widget{
+		float: left;
+		width: 20%;
+		margin: 20px 1%;
+	}
+	.side_tool_container{
+		float: left;
+		width: 80%;
+		padding: 15px 10%;
+		margin-bottom: 10px;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+		background: #FFF;
+	}
+	.side_tool_title{
+		float: left;
+		width: 100%;
+		padding: 5px 0 15px 0;
+		font-weight: 600;
+		text-transform: uppercase;
+		font-size: .9em;
+		color: #757575;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.side_tool_text{
+		float: left;
+		width: 100%;
+		font-size: .8em;
+		padding: 5px 0;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.side_tool_mail{
+		float: left;
+		width: 100%;
+		padding: 15px 0;
+	}
+	.side_tool_marked{
+		font-weight: 600;
+		color: #03A9F4;
+	}
+/* Delete post/delete profile */
+.delete_post_confirm, #delete_profile{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	left: 0;
+	top: 0;
+	z-index: 100000;
+}
+#delete_post_form, .delete_profile{
+	width: 90%;
+	height: 230px;
+	max-width: 300px;
+	margin: 15% auto;
+	background: #FFF;
+}
+#are_you_delete, .are_you{
+	float: left;
+	text-align: center;
+	width: 60%;
+	margin: 25px 20% 30px 20%;
+	font-size: .8em;
+}
+.cancel_delete, .final_delete{
+	float: left;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+ 	box-shadow: none;
+ 	border: none;
+ 	border-radius: none;
+ 	width: 50% !important;
+ 	margin: 10px 25% !important;
+ 	height: 30px;
+ 	font-size: .8em;
+ 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ 	background: #03A9F4;
+ 	cursor: pointer;
+ 	text-align: center;
+ 	line-height: 30px;
+}
+.cancel_delete, #cancel_delete_account{
+	background: #EEEEEE;
+}
+.cancel_delete:hover, #cancel_delete_account:hover{
+	color: #000 !important;
+}

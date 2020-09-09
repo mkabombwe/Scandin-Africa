@@ -1,0 +1,121 @@
+body{
+	width: 100%;
+	font-family: Century Gothic, sans-serif;
+}
+.container{
+	float: left;
+	width: 60%;
+	margin: 0 20%;
+}
+.title{
+	font-size: 3.5em;
+	text-align: center;
+	font-family: Big-John;
+	letter-spacing: .2em;
+	color: #FFF;
+	padding: 150px 0;
+}
+.sector_info{
+	padding: 50px 0;
+}
+.sector_info p{
+	font-size: 1.2em;
+	letter-spacing: 1.5px;
+	font-family: Century Gothic, sans-serif;
+	line-height: 1.7em;
+	padding: 15px 0;
+	text-align: center;
+}
+/* Opp */
+#opportunities_container{
+	float: left;
+	width: 80%;
+	margin: 1% 10%;
+	padding-bottom: 25px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 10px;
+	overflow: hidden;
+	background: #FFF;
+}
+#opportunities_overtitle{
+	float: left;
+	width: 80%;
+	padding: 25px 10%;
+	background: #00AFF0;
+	color: #FFF;
+}
+.opportunities_select{
+	float: left;
+	width: 80%;
+	padding: 5px 10%;
+}
+.opportunities_select .opportunities_undertitle{
+	float: left;
+	width: 100%;
+	padding: 10px 0 0 0;
+	text-align: left;
+	font-size: .8em;
+	color: #BDBDBD;
+}
+.opportunities_select select{
+	float: left;
+	width: 100%;
+	font-size: 1em;
+	padding: 5px 0;
+	border-radius: 0;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #BDBDBD;
+	-webkit-appearance: none;
+	appearance: none;
+	cursor: pointer;
+}
+.opportunities_select select:focus{
+	outline: none;
+	border-bottom: 1px solid #00AFF0;
+}
+.opportunities_select input{
+	float: left;
+	-webkit-appearance: none;
+	appearance: none;
+	border: none;
+	border-radius: none;
+	width: 30%;
+	margin-top: 25px;
+	padding: 15px 0;
+	color: #FFF;
+	background: #00AFF0;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.opportunities_select input:focus{
+	outline: none;
+}
+/* Media */
+@media screen and (max-width: 800px){
+	.container{
+		width: 80%;
+		margin: 0 10%;
+	}
+	#top_img{
+		background-size: auto 100%;
+	}
+}
+/* Fonts */
+@font-face {
+    font-family: gidole-regular;
+    src: url(../fonts/Gidole-Regular.otf);
+}
+@font-face {
+    font-family: gidoleplay-regular;
+    src: url(../fonts/GidolePlay-Regular.otf);
+}
+/* Fonts */
+@font-face {
+    font-family: Big-John;
+    src: url(../fonts/BIG-JOHN.otf);
+}
+@font-face {
+    font-family: Slim-Joe;
+    src: url(../fonts/Slim-Joe.otf);
+}

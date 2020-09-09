@@ -1,0 +1,130 @@
+body{
+	background-color: #F5F5F5;
+	width: 100%;
+}
+#container{
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding-top: 85px;
+}
+#wrapper{
+	float: left;
+	width: 100%;
+	padding-bottom: 200px;
+}
+/* posts */
+#filter_menu{
+	float: left;
+	text-align: center;
+	width: 20%;
+	margin-left: 40%;
+	font-size: 1.4em;
+	cursor: pointer;
+}
+#post_filter{
+	width: 100%;
+	height: 300px;
+	background: #FFF;
+}
+.post{
+	float: left;
+	width: 99%;
+	margin: 5px 0 5px 1%;
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.post_top{
+	float: left;
+	width: 95%;
+	height: 75px;
+	padding: 0 2.5%;
+}
+.post_top_left{
+	float: left;
+	width: 10%;
+	height: 100%;
+	min-width: 40px;
+}
+.post_img_container{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 17.5px auto;
+	border-radius: 50%;
+	overflow: hidden;
+	cursor: pointer;
+}
+.post_top_right{
+	float: left;
+	width: 80%;
+	height: 100%;
+
+}
+.post_top p{
+	width: 80%;
+	font-family: Century Gothic, sans-serif;
+}
+.post_name{
+	margin-top: 17px;
+	line-height: 15px;
+	font-size: .7em;
+	cursor: pointer;
+}
+.post_user{
+	font-size: .7em;
+	line-height: 16px;
+	color: #616161;
+	cursor: pointer;
+}
+.post_country{
+	line-height: 15px;
+}
+.post_date, .post_country{
+	font-size: .6em;
+	color: #616161;
+}
+.post_title, .post_section, .post_price, .post_text{
+	float: left;
+	width: 90%;
+	margin-left: 5%;
+	font-family: Century Gothic, sans-serif;
+	font-size: .8em;
+	padding-bottom: 20px;
+}
+.post_title{
+	font-weight: 600;
+	font-size: 1.3em;
+	text-align: center;
+}
+.post_content{
+	float: left;
+	width: 100%;
+}
+.post_text{
+	line-height: 20px;
+}
+.post_reactions{
+	float: left;
+	width: 90%;
+	padding: 5px 5%;
+	font-family: Century Gothic, sans-serif;
+}
+.post_reactions p{
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 25px;
+    text-align: center;
+	float: left;
+	margin: 10px 10px 10px 0;
+	color: #5C6363;
+	font-size: .8em;
+	cursor: pointer;
+}
+.post_reactions p:hover{
+	color: #009688;
+}
